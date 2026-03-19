@@ -1,10 +1,8 @@
--- Give Money Script - Emergency Hamburg
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 
--- Tentative avec "Cash"
 local leaderstats = player:WaitForChild("leaderstats")
-local cash = leaderstats:WaitForChild("Cash")
+local cash = leaderstats:WaitForChild("Money")
 
 cash.Value = cash.Value + 1000000
 
